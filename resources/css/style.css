@@ -1,0 +1,49 @@
+html{
+	font-size: 16px;
+	background-color: #E5E7E6;
+}
+
+/*Nav Styles*/
+nav{
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	padding: 0 1.5rem;
+}
+
+nav .nav-logo{
+	display: flex;
+	align-items: center;
+	height: 2rem;
+}
+
+.nav-logo .logo-content{
+	text-transform: uppercase;
+}
+
+.logo-content #logo-style{
+	font-weight: bold;
+}
+
+nav .desktop-tablet{
+	display: flex;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+.desktop-tablet li{
+	padding-right: 1rem;
+}
+
+desktop-tablet li:last-child{
+	padding-right: 0;
+}
+
+nav .mobile{
+	display: none;
+}
+
