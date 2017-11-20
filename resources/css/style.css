@@ -168,6 +168,62 @@ header p{
 }
 
 
+		/*Courses Styles*/
+#courses{
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 4.5rem;
+}
+
+#courses .course-row{
+	display: flex;
+}
+
+#courses .course-row:last-child{
+	margin-bottom: 0;
+}
+
+.course-row .course-container{
+	width: 33.3%;
+	margin-right: 2rem;
+	margin-top: 2rem;
+	background-color: white;
+}
+
+.course-row .course-container:last-child{
+	margin-right: 0;
+}
+
+.course-container .course-img{
+	width: 100%;
+}
+
+.course-img img{
+	max-width: 100%;
+	height: auto;
+}
+
+.course-container .course-content{
+	padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-content h4{
+	font-size: 1.625rem;
+	font-weight: bold;
+}
+
+.course-content h5{
+	margin: 0.5rem 0;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+}
+
+.course-content p{
+	font-size: 1rem;
+	line-height: 1.3;
+}
+
+
 
 
 
