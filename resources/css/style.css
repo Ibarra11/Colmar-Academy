@@ -9,38 +9,37 @@ a{
 .center{
 	text-align: center;
 }
-/*THis is for the parts that require a width of 60%*/
-.width-60{
+/*THis stying is for the two sections that have an image and some content that takes up 60% and the side column that takes 40%*/
+.container-60-40{
+	display: flex;
+}
+.left-column-60{
 	width: 60%;
 	padding: 2rem 1.5rem;
 }
 
-.width-60 img{
+.left-column-60 img{
 	max-width: 100%;
 }
 
-/*The structure for the columns that sit vertically in
-#colmar section and #thesis section*/
-.vertical-column{
+.right-column-40{
 	width: 40%;
 	display: flex;
 	flex-direction: column;
 	padding-top: 1rem;
-	border-left: 1px solid black;
 }
 
-.vertical-column .column-row{
+.right-column-40 .column-row{
 	display: flex;
 	align-items: center;
-	border-bottom: 1px solid grey;
 }
 
-.vertical-column .column-row-img{
+.right-column-40 .column-row-img{
 	width: 35%;
 	padding: 1rem;
 }
 
-.vertical-column .column-row-content{
+.right-column-40 .column-row-content{
 	width: 65%;
 }
 
@@ -115,7 +114,7 @@ header .header-img-container{
 }
 
 header .header-content{
-	width: 27%;	
+	width: 75%;	
 }
 
 .header-content .button{
@@ -168,7 +167,7 @@ header p{
 }
 
 
-		/*Courses Styles*/
+/*Courses Styles*/
 #courses{
 	display: flex;
 	flex-direction: column;
@@ -222,6 +221,54 @@ header p{
 	font-size: 1rem;
 	line-height: 1.3;
 }
+
+/*Thesis*/
+#thesis{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+#thesis .header{
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 2.25rem;
+}
+
+#thesis .thesis-video{
+	width: 100%;
+}
+
+.thesis-video video{
+	max-width: 100%;
+}
+
+#thesis .right-column-40{
+	padding-top: 2rem;
+}
+
+
+#thesis .column-row:first-child{
+	background-color: lightgrey;
+}
+
+#thesis .column-row{
+	border-bottom: none;
+}
+
+#thesis .thesis-content{
+	margin-top: 1.5rem;
+}
+
+.thesis-content h2{
+	font-size: 1.75rem;
+}
+
+.thesis-content p{
+	margin-top: 0.5rem;
+	font-size: 1.125rem;
+}
+
 
 
 
