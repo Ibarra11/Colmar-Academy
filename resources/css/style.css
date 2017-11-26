@@ -270,7 +270,7 @@ nav a{
 
 	nav .mobile li{
 		display: flex;
-		align-items: flex-end;
+		align-items: center;
 	}
 
 	nav .mobile li:hover{
